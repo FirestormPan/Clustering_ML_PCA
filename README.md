@@ -1,6 +1,6 @@
-# Clustering_ML_PCA
-Comparing the clustering process with PCA and without PCA, based on metrics
+# PCA evaluation with Clustering algorithms 
+This project evaluates the impact of Principal Component Analysis (PCA) on the performance of several clustering algorithms, with popular metrics.
 
-The project is on the well known fashion-mnist dataset. The use of Principal component analysis(PCA), even though it helps with computation times, it is losing some information. The goal of this project is to train miniBatch K-means, K-means , and agglomerative models, with and without PCA. After the training is complete, I am evaluating the how much worse the results are with the use of PCA and if the results are acceptable, based on silhuette coefficient, Calinski-Harabasz Index, Davis-Bouldin index and homogenity. 
+The project uses the well known Fashion-mnist dataset. PCA reduces the dimensionality of the dataset, which can significantly decrease training time. However, this reduction may also remove useful variance from the data and negatively affect clustering performance. The goal of this project is to train the models MiniBatch K-Means, K-Means and Agglomerative with and without PCA. After the training is complete, I evaluate how much worse the results are when using PCA and if the metrics' results are acceptable. The metrics used are Silhouette coefficient, Calinski-Harabasz Index, Davies–Bouldin index and homogeneity. 
 
-The report included is in Greek.
+The accompanying project report (written in Greek) contains a detailed analysis of the experiments and results.
